@@ -21,6 +21,6 @@ module.exports = {
 
     await prefixes.set(message.guild.id, args[0]);
     message.react(reactionSuccess);
-    message.channel.send(`Server prefix successfully changed to ${args[0]}.`);
+    message.channel.send(`Congrats Server prefix successfully changed to ${args[0]}.`);
   }
 }
